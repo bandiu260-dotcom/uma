@@ -1,0 +1,32 @@
+# Type Casting (done by the programmer)
+
+num = "25"
+number = int(num)   # Convert string to integer
+
+print(number)
+print(type(number))
+# Type Conversion (done automatically by Python)
+
+a = 10      # int
+b = 2.5     # float
+
+result = a + b
+
+print(result)
+print(type(result))
+ 
+# input statement
+name = input("enter your name:")
+print ("welocome," + name + "!" )
+age =input("enter your age:")
+print ("you are " + age + "years old")
+
+bill=(input("enter the bill amount:"))
+#output:<class'str'>
+print(type("bill amount is" + bill ) )
+
+#string
+str ("hello world")
+print(str("hello world"))
+print("we are not interested \n we are getting sleep")
+
